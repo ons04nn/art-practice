@@ -1,3 +1,3 @@
-# art-practice
+## art-practice
 ## First HTML project
 # Nikolay Orekhov
