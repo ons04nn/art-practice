@@ -1,5 +1,5 @@
 # Art-practice
-##First HTML project
+## First HTML project
 ### Nikolay Orekhov
 
 Figma
