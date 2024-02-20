@@ -1,6 +1,6 @@
 # Art-practice
- First HTML project
-## Nikolay Orekhov
+##First HTML project
+### Nikolay Orekhov
 
 Figma
 <a> href=""
