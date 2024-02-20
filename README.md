@@ -1,5 +1,5 @@
-## art-practice
-## First HTML/CSS project
+## Art-practice
+## First HTML project
 # Nikolay Orekhov
 
 Site
