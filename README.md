@@ -1,5 +1,5 @@
 # Art-practice ![](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif) 
-## first HTML project
+## My first HTML/CSS project
 ### Nikolay Orekhov
 
 Figma
