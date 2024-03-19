@@ -17,20 +17,31 @@
   src: url("../fonts/TTTravels/TTTravels-Medium.ttf");
 }
 .logo{
-  top: 50px;
+  top: 25px;
   display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     position: relative;
 }
 /*обёртка*/
 .wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 0px 0;
+  margin-block-end: 50px;
+  cursor: pointer;
+  align-items: center;
+  }
+  .wrapperB {
     display: flex;
     justify-content: space-around;
     position: relative;
     margin: 0px 0;
     margin-block-end: 50px;
-    cursor:pointer;
-  }
+    cursor: pointer;
+    align-items: center;
+    }
+  
 
 
 body{
@@ -42,6 +53,7 @@ padding-right:60px;
 background-image: url(../../files/guitar-neck-black-background-guitar-playing-guitar-concepts-wooden-guitar\ 1.png);
 background-repeat: no-repeat;
 background-size: cover;
+max-width: 85%;
 
 
 }
@@ -49,11 +61,15 @@ background-size: cover;
 p {
   margin: 1px 0;
   padding: 1px;
+  font-family: "GothamM";
+  font-size: 55%;
+  cursor: pointer;
+  margin-block-end: 0px;
 }
 /*голова*/
 h5{
-  font-family: "GothamM";
-  font-size: 55%;
+  font-family: "TTB";
+  font-size: 25rem;
   cursor: pointer;
   margin-block-end: 0px;
   }
@@ -170,13 +186,13 @@ h1{
   margin-left: 70px;
 }
 
-.LP{position:relative;
-  bottom: 760px;
-  left: 675px;
+.LP{position:absolute;
+  bottom: 300px;
+  left: 740px;
 }
-.ST{position:relative;
-  bottom: 808px;
-  left: 950px;
+.ST{position:absolute;
+  bottom: 295px;
+  left: 1015px;
 }
 h5{
   font-family: "GothamM";
@@ -185,9 +201,9 @@ h5{
   }
 
 .grnt{
-  position:relative;
-  bottom: 1330px;
-  left: 930px;
+  position:absolute;
+  bottom: 640px;
+  left: 1000px;
   margin-left: 70px;
 }
 
@@ -222,3 +238,21 @@ h5{
   bottom: 760px;
   left: 675px;
 } */
+
+.rectangle {
+  position:static;
+  background-color: #D4CEC5;
+  height: 330px;
+  width: 520px;
+  
+}
+
+.vector{
+  margin-left: 400px;
+  margin-right: 400px;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  align-items: center;
+  margin-bottom: 50px;
+}
