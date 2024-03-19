@@ -1,5 +1,5 @@
 # Art-practice ![](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif) 
-## My first HTML/CSS project
+## It's my first HTML/CSS project
 ### Nikolay Orekhov
 
 <p>
