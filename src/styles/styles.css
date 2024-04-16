@@ -16,6 +16,10 @@
   font-family: "TTM";
   src: url("../fonts/TTTravels/TTTravels-Medium.ttf");
 }
+
+html {
+  
+}
 .logo{
   top: 25px;
   display: flex;
@@ -27,8 +31,6 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  margin: 0px 0;
-  margin-block-end: 50px;
   cursor: pointer;
   align-items: center;
   }
@@ -41,6 +43,17 @@
     cursor: pointer;
     align-items: center;
     }
+
+    .wrapperX {
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      margin: 0px 300;
+      margin-block-end: 50px;
+      cursor: pointer;
+      align-items: center;
+      }
+    
   
 
 
@@ -171,18 +184,19 @@ h1{
 }
 .guitars {
   display:flex;
+  position:static;
   cursor:pointer;
 }
 .guitar1 {
   position:relative;
-  bottom: 735px;
-  left: 640px;
+  bottom: 230px;
+  left: 135px;
   margin-right: 70px;
 }
 .guitar2 {
   position:relative;
-  bottom: 735px;
-  left: 640px;
+  bottom: 230px;
+  left: 135px;
   margin-left: 70px;
 }
 
@@ -207,7 +221,7 @@ h5{
   margin-left: 70px;
 }
 
-/* круги
+ /*круги*/
 .circle1{
   width:412;
   height:412;
@@ -215,8 +229,6 @@ h5{
   opacity: .3;
   backdrop-filter: blur(1px); 
   border-radius: 206px;
-  bottom: 760px;
-  left: 675px;
 }
 .circle2{
   width:412;
@@ -225,27 +237,18 @@ h5{
   opacity: .3;
   backdrop-filter: blur(1px); 
   border-radius: 206px;
-  bottom: 760px;
-  left: 675px;
+
 }
 .circle3{
-  width:412;
-  height:412;
+  width: 330;
+  height:330;
   background-color: #D4CEC5;
   opacity: .3;
   backdrop-filter: blur(1px);
   border-radius: 206px;
-  bottom: 760px;
-  left: 675px;
-} */
 
-.rectangle {
-  position:static;
-  background-color: #D4CEC5;
-  height: 330px;
-  width: 520px;
-  
-}
+} 
+
 
 .vector{
   margin-left: 400px;
