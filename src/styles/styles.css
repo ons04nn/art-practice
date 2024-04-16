@@ -59,14 +59,12 @@ html {
 
 body{
     background-color: black;
-font-size: xx-large;
 color: white;
 padding-left:60px;
 padding-right:60px;
 background-image: url(../../files/guitar-neck-black-background-guitar-playing-guitar-concepts-wooden-guitar\ 1.png);
 background-repeat: no-repeat;
 background-size: cover;
-max-width: 85%;
 
 
 }
@@ -92,6 +90,7 @@ h1{
   line-height:90%;
   font-size: 4rem;
   margin-block-end: 30px;
+  margin-top: 0;
   }
   /*текст*/
     h6{
@@ -259,3 +258,10 @@ h5{
   align-items: center;
   margin-bottom: 50px;
 }
+
+.left {
+  width: 40%;
+}
+
+.1
+{}
