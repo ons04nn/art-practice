@@ -27,6 +27,13 @@ html {
     position: relative;
 }
 /*обёртка*/
+.wrappers1 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: flex-start;
+}
+
 .wrapper {
   display: flex;
   justify-content: space-between;
@@ -49,7 +56,7 @@ html {
       justify-content: space-around;
       position: relative;
       margin: 0px 300;
-      margin-block-end: 50px;
+      margin-bottom: 210px;
       cursor: pointer;
       align-items: center;
       }
@@ -60,12 +67,12 @@ html {
 body{
     background-color: black;
 color: white;
-padding-left:60px;
-padding-right:60px;
-background-image: url(../../files/guitar-neck-black-background-guitar-playing-guitar-concepts-wooden-guitar\ 1.png);
+padding-left:62px;
+padding-right:62px;
+background-image: url(../img/guitar-neck-black-background-guitar-playing-guitar-concepts-wooden-guitar\ 1.png);
 background-repeat: no-repeat;
 background-size: cover;
-
+width: 1400px;
 
 }
 
@@ -73,14 +80,14 @@ p {
   margin: 1px 0;
   padding: 1px;
   font-family: "GothamM";
-  font-size: 55%;
+  font-size: 20 px;
   cursor: pointer;
-  margin-block-end: 0px;
+  margin-bottom: 0px;
 }
 /*голова*/
 h5{
   font-family: "TTB";
-  font-size: 25rem;
+  font-size: 25px;
   cursor: pointer;
   margin-block-end: 0px;
   }
@@ -88,15 +95,15 @@ h5{
 h1{
   font-family: "TTB";
   line-height:90%;
-  font-size: 4rem;
-  margin-block-end: 30px;
+  font-size: 69;
+  margin-bottom: 0px;
   margin-top: 0;
   }
   /*текст*/
     h6{
       font-family: "Gotham";
       line-height:120%;
-      font-size: 1rem;
+      font-size: 16.6;
       margin-block-start: 20px;
       margin-block-end: 20px;
       
@@ -108,8 +115,8 @@ h1{
 
 /*button1*/
 .styled1 {
-  width:222.5;
-  height:65;
+  width:222;
+  height:63;
   border: 0;
   padding: 0 20px;
   font-family: "TTM";
@@ -119,7 +126,7 @@ h1{
   border-radius: 41.67px;
   background-color: rgba(222, 225, 225, 1);
   cursor: pointer;
-  margin-block-start: 30px;
+
 }
 .styled1:active {
   box-shadow:
@@ -130,8 +137,8 @@ h1{
 
 /*button2*/
 .styled2 {
-  width:222.5;
-  height:65;
+  width:222;
+  height:63;
   border: 0;
   padding: 0 20px;
   font-family: "TTM";
@@ -141,83 +148,64 @@ h1{
   border-radius: 41.67px;
   background-color: rgba(220, 0, 0, 1);
   cursor: pointer;
-  margin-block-start: 30px;
+  
 }
 .styled2:active {
   box-shadow:
     inset -2px -2px 3px rgba(255, 255, 255, 0.6),
     inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
-/*контейнер*/
-.container {
-  display: flex;
-}
+
 
 /*стили прямоугольников*/
-.rectangle1 {
-  position:relative;
-  bottom: 260px;
-  left: 600px;
+.rectangle{
+  position:absolute;
   background-color: #D4CEC5;
   opacity: .3;
   backdrop-filter: blur(1px);
-  height: 500px;
-  width: 215px;
+  height: 100%;
+  width: 100%;
   border-radius: 166px;
-  margin-right: 37.5px;
+  box-shadow: 5px 5px 5px black;
   
 }
 
-.rectangle2 {
-  position:relative;
-  bottom: 260px;
-  left: 600px;
-  background-color: #D4CEC5;
-  opacity: .3;
-  backdrop-filter: blur(1px);
-  height: 500px;
-  width: 215px;
-  border-radius: 166px;
-  margin-left: 37.5px;
   
-}
+
 .guitars {
   display:flex;
-  position:static;
-  cursor:pointer;
+  justify-content: space-between;
+  position: relative;
+ 
+  cursor: pointer;
+    align-items: center;
 }
-.guitar1 {
+.guitar {
+flex-direction: column;
   position:relative;
-  bottom: 230px;
-  left: 135px;
   margin-right: 70px;
-}
-.guitar2 {
-  position:relative;
-  bottom: 230px;
-  left: 135px;
-  margin-left: 70px;
+  height: 520px;
+  width: 240px;
+  display: inherit;
+  align-items: inherit;
+  justify-content: center;
+
 }
 
-.LP{position:absolute;
-  bottom: 300px;
-  left: 740px;
+.text_guitar_under{
+
 }
-.ST{position:absolute;
-  bottom: 295px;
-  left: 1015px;
-}
-h5{
+h3{
   font-family: "GothamM";
-  font-size: 55%;
+  font-size: 20px;
   cursor: pointer;
+  margin-bottom: 0;
   }
 
 .grnt{
   position:absolute;
-  bottom: 640px;
-  left: 1000px;
-  margin-left: 70px;
+  bottom: 390px;
+  left: 1175px;
 }
 
  /*круги*/
@@ -228,6 +216,20 @@ h5{
   opacity: .3;
   backdrop-filter: blur(1px); 
   border-radius: 206px;
+  position: absolute;
+  
+  
+}
+.img_circle {
+  position: relative;
+  z-index: 1;
+}
+.bg { 
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 .circle2{
   width:412;
@@ -236,6 +238,7 @@ h5{
   opacity: .3;
   backdrop-filter: blur(1px); 
   border-radius: 206px;
+  position: absolute;
 
 }
 .circle3{
@@ -245,6 +248,7 @@ h5{
   opacity: .3;
   backdrop-filter: blur(1px);
   border-radius: 206px;
+  position: absolute;
 
 } 
 
@@ -260,8 +264,30 @@ h5{
 }
 
 .left {
-  width: 40%;
+  width: 52%;
+  margin-top: 20px;
+}
+.right {
+  width: 48%;
+  display: flex;
 }
 
-.1
-{}
+.general{
+
+}
+
+.slider{
+  width:1400px;
+  height:700px;
+}
+
+.buttons {
+  margin-top: 51px;
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.circles {
+
+}
