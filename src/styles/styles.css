@@ -41,6 +41,18 @@ html {
   cursor: pointer;
   align-items: center;
   }
+
+  .wrapperA {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin: 0px 0;
+    margin-block-end: 50px;
+    cursor: pointer;
+    align-items: center;
+    }
+
+
   .wrapperB {
     display: flex;
     justify-content: space-around;
@@ -51,6 +63,8 @@ html {
     align-items: center;
     }
 
+    
+
     .wrapperX {
       display: flex;
       justify-content: space-around;
@@ -60,7 +74,8 @@ html {
       cursor: pointer;
       align-items: center;
       }
-    
+
+      
   
 
 
@@ -229,6 +244,8 @@ h3{
   display: flex;
   align-items: center;
   justify-content: center;
+  width:412;
+  height:412;
 
 }
 .circle2{
@@ -278,7 +295,7 @@ h3{
 
 .slider{
   width:1400px;
-  height:700px;
+  height:1054px;
 }
 
 .buttons {
@@ -290,4 +307,12 @@ h3{
 
 .circles {
 
+}
+.slide {
+  width:1270px;
+  height:619px;
+  color: #000;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
