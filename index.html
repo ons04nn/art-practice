@@ -6,6 +6,9 @@
   </title>
 </head>
 
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 <link rel="stylesheet" href="./src/styles/styles.css">
 
 
@@ -85,9 +88,22 @@
   
    <section class="slider">
 
-
-    <div class="slide"></div>
-    
+    <div class="slide">
+  
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">  <img  src="./src/img/guitar-neck-black-background-guitar-playing-guitar-concepts-wooden-guitar 1.png"></div>
+        <div class="swiper-slide"><img  src="./src/img/guitar-neck-black-background-guitar-playing-guitar-concepts-wooden-guitar 1.png"></div>
+        <div class="swiper-slide"><img  src="./src/img/guitar-neck-black-background-guitar-playing-guitar-concepts-wooden-guitar 1.png"></div>
+        <div class="swiper-slide"><img  src="./src/img/guitar-neck-black-background-guitar-playing-guitar-concepts-wooden-guitar 1.png"></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  
+  </div>
    </section>
 
 
@@ -162,6 +178,30 @@
       </div>
     </div>
   </footer>
+
+  <!-- скрипты сюда -->
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </body>
 
 
