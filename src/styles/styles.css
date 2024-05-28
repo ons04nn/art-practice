@@ -327,6 +327,8 @@ h3{
 
 .circles {
   padding: 100px 0;
+  padding-left:62px;
+  padding-right:62px;
 }
 
 .swiper {
