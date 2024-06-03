@@ -1,0 +1,359 @@
+/*шрифты*/
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham_Pro/gothampro.ttf");
+  line-height:  0;
+}
+@font-face {
+  font-family: "GothamM";
+  src: url("../fonts/Gotham_Pro/gothampro_medium.ttf");
+}
+@font-face {
+  font-family: "TTB";
+  src: url("../fonts/TTTravels/TTTravels-Bold.ttf");
+}
+@font-face {
+  font-family: "TTM";
+  src: url("../fonts/TTTravels/TTTravels-Medium.ttf");
+}
+
+html {
+  
+}
+.logo{
+  top: 25px;
+  display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+/*обёртка*/
+.wrappers1 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: flex-start;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+  align-items: center;
+  }
+
+  .wrapperA {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin: 0px 0;
+    margin-block-end: 50px;
+    cursor: pointer;
+    align-items: center;
+    }
+
+
+  .wrapperB {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin: 0px 0;
+    margin-block-end: 50px;
+    cursor: pointer;
+    align-items: center;
+    }
+
+    
+
+    .wrapperX {
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      margin: 0px 300;
+     
+      cursor: pointer;
+      align-items: center;
+      }
+
+      
+  
+
+
+body{
+    background-color: black;
+color: white;
+background-color: #121a28;
+background-repeat: no-repeat;
+background-size: cover;
+width: 1440px;
+margin: 0 auto;
+
+}
+
+header{
+  padding-left:62px;
+padding-right:62px;
+}
+
+
+
+
+p {
+  margin: 1px 0;
+  padding: 1px;
+  font-family: "GothamM";
+  font-size: 20 px;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+/*голова*/
+h5{
+  font-family: "TTB";
+  font-size: 25px;
+  cursor: pointer;
+  margin-block-end: 0px;
+  }
+  /*заголовок*/
+h1{
+  font-family: "TTB";
+  line-height:90%;
+  font-size: 69;
+  margin-bottom: 0px;
+  margin-top: 0;
+  }
+  /*текст*/
+    h6{
+      font-family: "Gotham";
+      line-height:120%;
+      font-size: 16.6;
+      margin-block-start: 20px;
+      margin-block-end: 20px;
+      
+      }
+
+
+
+
+
+/*button1*/
+.styled1 {
+  width:222;
+  height:63;
+  border: 0;
+  padding: 0 20px;
+  font-family: "TTM";
+  font-size: 1rem;
+  text-align: center;
+  color: #000;
+  border-radius: 41.67px;
+  background-color: rgba(222, 225, 225, 1);
+  cursor: pointer;
+
+}
+.styled1:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+/*button2*/
+.styled2 {
+  width:222;
+  height:63;
+  border: 0;
+  padding: 0 20px;
+  font-family: "TTM";
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 41.67px;
+  background-color: rgba(220, 0, 0, 1);
+  cursor: pointer;
+  
+}
+.styled2:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+/*стили прямоугольников*/
+.rectangle{
+  position:absolute;
+  background-color: #D4CEC5;
+  opacity: .3;
+  backdrop-filter: blur(1px);
+  height: 100%;
+  width: 100%;
+  border-radius: 166px;
+  box-shadow: 5px 5px 5px black;
+  
+}
+
+  
+
+.guitars {
+  display:flex;
+  justify-content: space-between;
+  position: relative;
+ 
+  cursor: pointer;
+    align-items: center;
+}
+.guitar {
+flex-direction: column;
+  position:relative;
+  margin-right: 70px;
+  height: 520px;
+  width: 240px;
+  display: inherit;
+  align-items: inherit;
+  justify-content: center;
+
+}
+
+.text_guitar_under{
+
+}
+h3{
+  font-family: "GothamM";
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 0;
+  }
+
+.grnt{
+  position:absolute;
+  bottom: 390px;
+  left: 1113px;
+}
+
+ /*круги*/
+.circle1{
+  width:412;
+  height:412;
+  background-color: #D4CEC5;
+  opacity: .3;
+  backdrop-filter: blur(1px); 
+  border-radius: 206px;
+  position: absolute;
+  
+  
+}
+.img_circle {
+  position: relative;
+  z-index: 1;
+}
+.bg { 
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:412;
+  height:412;
+
+}
+.circle2{
+  width:412;
+  height:412;
+  background-color: #D4CEC5;
+  opacity: .3;
+  backdrop-filter: blur(1px); 
+  border-radius: 206px;
+  position: absolute;
+
+}
+.circle3{
+  width: 330;
+  height:330;
+  background-color: #D4CEC5;
+  opacity: .3;
+  backdrop-filter: blur(1px);
+  border-radius: 206px;
+  position: absolute;
+
+} 
+
+
+.vector{
+  margin-left: 400px;
+  margin-right: 400px;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.left {
+  width: 52%;
+  margin-top: 20px;
+}
+.right {
+  width: 48%;
+  display: flex;
+}
+
+.general{
+  padding-left:62px;
+  padding-right:62px;
+  background-image: url(../img/guitar-neck-black-background-guitar-playing-guitar-concepts-wooden-guitar\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 1440px;
+}
+
+.slider{
+  padding: 100px 0;
+  width: 1440px;
+  height: 754px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.slide{
+  width:1270px;
+  height:754px;
+  
+ 
+}
+
+
+.buttons {
+  margin-top: 51px;
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.circles {
+  padding: 100px 0;
+  padding-left:62px;
+  padding-right:62px;
+  background-image: url(../img/image\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 1440px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
