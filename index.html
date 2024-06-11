@@ -19,16 +19,36 @@
 <body>
   <header>
 
+    <nav class="wrapper">
 
-    <div class="wrapper">
-      <p>Акустические гитары</p>
-      <p>Электрогитары</p>
+      <ul class="sheet">
+
+        <li  class="navi">
+      <a class="nav_text"href="#guitars"> Акустические гитары</a>
+      </li>
+
+    <li class="navi">
+      <a class="nav_text"href="#electric_guitars">Электрогитары</a>
+    </li>
+
+  </ul>
       <div class="logo">
-        <img  src="./src/img/Guitar Center - jpeg.png">
+        <img  src="./src/img/Guitar Center - jpeg.png" alt="logo">
       </div>
-      <p>Бас-гитары</p>
-      <p>Наша история</p>
-    </div>
+      
+    <ul class="sheet">
+
+    <li class="navi">
+       <a class="nav_text"href="#bass">Бас-гитары</a>  
+    </li>
+
+    <li class="navi">  <a class="nav_text" href="#history">Наша история</a>
+     </li>
+
+     </ul>
+     
+  </nav>
+
   </header>
 
   <main>
@@ -61,14 +81,14 @@
 
           <div class="guitar">
             <div class="rectangle"></div>
-            <img class=img_circle src="./src/img/Без имени-1 1.png">
+            <img class=img_circle src="./src/img/Без имени-1 1.png" alt="les paul">
           
         <h3 class="text_guitar_under">Les Paul</h3>
         </div>
 
           <div class="guitar">
             <div class="rectangle"></div>
-            <img class=img_circle src="./src/img/0142912785_fen_ins_frt_1_rr-transformed 1.png">
+            <img class=img_circle src="./src/img/0142912785_fen_ins_frt_1_rr-transformed 1.png" alt="stratocaster">
             <h3 class="text_guitar_under">Stratocaster</h3>
           </div>
         </div>
@@ -79,7 +99,7 @@
           
         <!-- гарантия -->
       
-          <img class="grnt" src="./src/img/знак-пожизненной-гарантии-75443061-transformed 1.png">
+          <img class="grnt" src="./src/img/знак-пожизненной-гарантии-75443061-transformed 1.png" alt="grnt">
     
     </div>
   </div>
@@ -93,13 +113,12 @@
     <!-- Swiper -->
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">  <img  src="./src/img/1g.jpg"></div>
-        <div class="swiper-slide"><img  src="./src/img/2g.jpg"></div>
-        <div class="swiper-slide"><img  src="./src/img/3g.jpg"></div>
+        <div class="swiper-slide">  <img  src="./src/img/1g.jpg" alt="slide 1"></div>
+        <div class="swiper-slide"><img  src="./src/img/2g.jpg" alt="slide 2"></div>
+        <div class="swiper-slide"><img  src="./src/img/3g.jpg" alt="slide 3"></div>
       </div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
     </div>
   
   </div>
@@ -112,14 +131,14 @@
 
         <div class="bg">
           <div class="circle1"></div>
-          <img class="img_circle" src="./src/img/fend.png">
+          <img class="img_circle" src="./src/img/fend.png" alt="fender">
         </div>
         
         <h5>Гитарные усилители</h5>
 
         <div class="bg">
         <div class="circle2"></div>
-          <img class="img_circle" src="./src/img/mar.png">
+          <img class="img_circle" src="./src/img/mar.png" alt="marshall">
       </div>
 
     </div>
@@ -128,7 +147,7 @@
       <div class="wrapperX">
         <div class="bg"> 
         <div class="circle3"></div>
-        <img class="img_circle" src="./src/img/cab.png">
+        <img class="img_circle" src="./src/img/cab.png" alt="cable">
         
       </div>
       <h5>Аксессуары</h5>
@@ -167,15 +186,19 @@
       <h5>Контакты</h5>
     </div>
 
-    <div class="vector">
 
-      <div class="Vector1"><img src="./src/img/Vector1.png">
-      </div>
-      <div class="Vector2"><img src="./src/img/Vector2.png">
-      </div>
-      <div class="Vector3"><img src="./src/img/Vector3.png">
-      </div>
-    </div>
+    <ul class="vector">
+
+      <li class="Vector1"><img src="./src/img/Vector1.png" alt="VK">
+      </li>
+
+      <li class="Vector2"><img src="./src/img/Vector2.png" alt="TG">
+      </li>
+
+      <li class="Vector3"><img src="./src/img/Vector3.png" alt="YT">
+      </li>
+  </ul>
+
   </footer>
 
   <!-- скрипты сюда -->
@@ -190,10 +213,6 @@
       autoplay: {
         delay: 5000,
         disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
       },
       navigation: {
         nextEl: ".swiper-button-next",
